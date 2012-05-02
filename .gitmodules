@@ -7,3 +7,6 @@
 [submodule "powershell/modules/PowerTab"]
 	path = powershell/modules/PowerTab
 	url = https://github.com/PProvost/PowerTab.git
+[submodule "powershell/modules/posh-svn"]
+	path = powershell/modules/posh-svn
+	url = https://github.com/JeremySkinner/posh-svn.git
