@@ -21,3 +21,9 @@ set-alias lock invoke-terminalLock
 
 # My PowerTab color theme
 import-tabExpansionTheme -LiteralPath $scripts\TabExpansionTheme.csv
+
+
+Start-SshAgent -Quiet
+. (join-path $scripts "ExtraFunctions.Josh.ps1")
+
+vcvars
