@@ -1,5 +1,5 @@
 [user]
-	name = joshclark
+	name = Josh Clark
 	email = josh@goclarks.com
 [color]
 	diff = auto
@@ -19,3 +19,10 @@
 	dump = cat-file -p
 [push]
 	default = upstream
+
+[gui]
+	recentrepo = C:/code/PostcardBudget
+	fontdiff = -family Consolas -size 10 -weight normal -slant roman -underline 0 -overstrike 0
+[github]
+	user = joshclark
+	token = e12c30bd4a0313fbba340bbc9e8c6696
