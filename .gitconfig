@@ -1,0 +1,21 @@
+[user]
+	name = joshclark
+	email = josh@goclarks.com
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[core]
+	editor = n.exe
+	autocrlf = true
+	excludesfile = ~/.gitignore
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[push]
+	default = upstream
