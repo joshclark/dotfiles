@@ -87,7 +87,7 @@ function tidy() {
 
 function vcvars() {
 	#Set environment variables for Visual Studio Command Prompt
-	pushd 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC'
+	pushd 'c:\Program Files (x86)\Microsoft Visual Studio 11.0\VC'
 	cmd /c "vcvarsall.bat&set" |
 	foreach {
 	  if ($_ -match "=") {
@@ -95,5 +95,5 @@ function vcvars() {
 	  }
 	}
 	popd
-	write-host "`nVisual Studio 2010 Command Prompt variables set." -ForegroundColor Yellow	
+	write-host "`nVisual Studio 2012 Command Prompt variables set." -ForegroundColor Yellow	
 }
